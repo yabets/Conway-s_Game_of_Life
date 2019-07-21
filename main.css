@@ -1,0 +1,23 @@
+.red {
+    background-color: red;
+
+}
+
+.green {
+    background: green;
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    margin: 0px;
+}
+
+.cell:hover {
+    color: green;
+}
+
+
+.cell:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
